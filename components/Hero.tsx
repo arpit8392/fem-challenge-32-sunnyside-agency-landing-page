@@ -10,7 +10,7 @@ const Hero = () => {
 			<Image
 				src={DownArrow}
 				alt=''
-				className='w-auto animate-bounce object-contain'
+				className='w-auto md:animate-bounce object-contain'
 			/>
 		</section>
 	)

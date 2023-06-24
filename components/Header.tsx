@@ -54,10 +54,9 @@ const Header = () => {
 				className='relative z-50 md:hidden'
 				open={isOpen}
 				onClose={() => setIsOpen(false)}>
-				<Dialog.Panel className='fixed right-6 top-24 z-10 min-h-fit w-[329px] bg-white'>
+				<Dialog.Panel className='fixed right-6 top-24 z-10 min-w-[280px]  bg-white'>
 					<div className='relative py-10'>
 						<div className='absolute -top-6 right-0 h-0 w-0 border-b-[24px] border-l-[24px]  border-l-transparent border-r-white border-b-white' />
-
 						<div className='flex flex-col items-center justify-center gap-8'>
 							{navigation.map((item) => (
 								<Link
