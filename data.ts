@@ -26,7 +26,7 @@ export const testimonialsData: Testimonial[] = [
 ]
 
 export const navigation = [
-	{ name: 'About', href: '#' },
-	{ name: 'Services', href: '#' },
-	{ name: 'Projects', href: '#' },
+	{ name: 'About', href: '/about' },
+	{ name: 'Services', href: '/services' },
+	{ name: 'Projects', href: '/projects' },
 ]
