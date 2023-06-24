@@ -27,6 +27,7 @@ const Header = () => {
 							fillRule='nonzero'
 						/>
 					</svg>
+					<span className='sr-only'>Logo</span>
 				</Link>
 				<div className='flex md:hidden'>
 					<button

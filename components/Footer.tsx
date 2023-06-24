@@ -18,6 +18,7 @@ const Footer = () => {
 							fillRule='nonzero'
 						/>
 					</svg>
+					<span className='sr-only'>Logo</span>
 				</Link>
 				<ul className='flex items-center gap-14'>
 					{navigation.map((item, index) => (
@@ -46,6 +47,7 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
+						<span className='sr-only'>Facebook</span>
 					</Link>
 				</li>
 				<li>
@@ -62,6 +64,7 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
+						<span className='sr-only'>Instagram</span>
 					</Link>
 				</li>
 				<li>
@@ -78,6 +81,7 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
+						<span className='sr-only'>Twitter</span>
 					</Link>
 				</li>
 				<li>
@@ -94,6 +98,7 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
+						<span className='sr-only'>Pinterest</span>
 					</Link>
 				</li>
 			</ul>
