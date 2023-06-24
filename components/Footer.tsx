@@ -33,7 +33,7 @@ const Footer = () => {
 			</div>
 			<ul className='flex items-center justify-center gap-7'>
 				<li>
-					<a href={'#'}>
+					<Link href={'#'}>
 						<svg
 							width='20'
 							height='20'
@@ -46,10 +46,10 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href={'#'}>
+					<Link href={'#'}>
 						<svg
 							width='20'
 							height='20'
@@ -62,10 +62,10 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href={'#'}>
+					<Link href={'#'}>
 						<svg
 							aria-hidden={true}
 							focusable={false}
@@ -78,10 +78,10 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href={'#'}>
+					<Link href={'#'}>
 						<svg
 							width='20'
 							height='20'
@@ -94,7 +94,7 @@ const Footer = () => {
 								fillRule='nonzero'
 							/>
 						</svg>
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</footer>
